@@ -1,0 +1,29 @@
+# CLI Utility Toolkit
+
+A lightweight, terminal-based utility toolkit implemented in C. This project provides a collection of fundamental mathematical and logical operations wrapped inside an interactive, user-friendly menu-driven interface.
+
+## Features
+
+The toolkit provides the following operations directly from the command line:
+* **Sum of Two Numbers:** Calculates the arithmetic sum of two integers.
+* **Maximum of Two Numbers:** Determines the greater value between two integers.
+* **Minimum of Two Numbers:** Determines the lesser value between two integers.
+* **Parity Check:** Evaluates whether a given integer is even or odd.
+* **Factorial Calculation:** Computes the factorial of a given integer using high-precision data types (`unsigned long long`) to minimize overflow constraints.
+
+---
+
+## Getting Started
+
+### Prerequisites
+To compile and run this project, you need a C compiler (such as `gcc` or `clang`) installed on your system.
+
+* **Linux/macOS:** Typically pre-installed or available via package managers (`apt`, `brew`).
+* **Windows:** MinGW, MSYS2, or WSL configured with GCC.
+
+### Installation & Execution
+
+1. Clone the repository:
+```bash
+   git clone [https://github.com/your-username/cli-utility-toolkit.git](https://github.com/your-username/cli-utility-toolkit.git)
+   cd cli-utility-toolkit
